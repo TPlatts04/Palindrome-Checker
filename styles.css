@@ -1,0 +1,92 @@
+body {
+  background-color: rgb(10, 10, 35);
+  margin: 0px;
+}
+
+.container {
+  margin-top: 275px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+  flex-direction: column;
+}
+
+.logo {
+  max-width: 262px;
+}
+
+.title {
+  color: white;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.palindrome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 10px 0px;
+  max-width: 410px;
+  background-color: white;
+  box-shadow: 0px 5px 10px blue;
+  border-radius: 20px;
+  flex-wrap: wrap;
+}
+
+.palindrome-label {
+  display: inline-block;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 20px;
+}
+
+.text-input {
+  margin: 10px;
+  width: 250px;
+  border:none;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(90, 1, 67);
+  height: 25px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.check-btn {
+  background-color: #5A01A7;
+  color:white;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  width: 90px;
+  cursor: pointer;
+}
+
+.result {
+  width: 290px;
+  height: 50px;
+  margin: auto;
+  display: none;
+}
+
+.palindrome-def {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 410px;
+  height: 102px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #00471B;
+  color: white;
+  font-size: 20.8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+}
+
+.palindrome-definition {
+  text-align: center;
+  display: block;
+  margin: 0px;
+}
