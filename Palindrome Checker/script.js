@@ -9,9 +9,10 @@ function checkPalindrome(){
   const newStr = textInputEl.value.split("").reverse().join("")
   const regex = /[_/|!"£$%^&*()_+{}:@<>?~\s-\\,.]/g;
   const replace = newStr.replace(regex, "").toLowerCase()
+
   let newValue = textInputEl.value;
   const returnVal = newValue.replace(regex, "").split("").join("").toLowerCase()
-  console.log(replace, returnVal)
+  
   if (returnVal === replace){
     const resultDiv = document.getElementById('result')
     const userInput = document.getElementById('user-input')
